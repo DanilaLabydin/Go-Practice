@@ -30,6 +30,4 @@ func main() {
 	*p = 15
 	fmt.Println("x:", x)
 
-
-
 }

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 )
 
 const pi = 3.14
 
-func main () {
+func main() {
 	printCircleArea(1)
 }
 
@@ -17,7 +17,7 @@ func printCircleArea(radius int) {
 		fmt.Println(err.Error())
 		return
 	}
-	
+
 	fmt.Printf("Radius: %d\n", radius)
 	fmt.Printf("Area: %f32\n", circleArea)
 }
@@ -29,5 +29,3 @@ func caclulateCircleArea(radius int) (float32, error) {
 
 	return float32(radius) * float32(radius) * pi, nil
 }
-
-

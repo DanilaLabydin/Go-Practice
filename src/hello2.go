@@ -15,7 +15,6 @@ func main() {
 	var sm int = test2 + test3
 	fmt.Println(test2 + test2 - sm)
 
-	var i, j, k = true, 2.3, "four" 
+	var i, j, k = true, 2.3, "four"
 	fmt.Println(i, j, k)
-
 }
