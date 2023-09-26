@@ -7,7 +7,7 @@ import (
 func main() {
 	var simpleSlice []int
 	fmt.Println(simpleSlice)
-	var slice = []int{1, 2, 3, 4} 
+	var slice = []int{1, 2, 3, 4}
 	fmt.Println(slice)
 	fmt.Println(simpleSlice == nil)
 	fmt.Println(slice == nil)
