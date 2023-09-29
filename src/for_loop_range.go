@@ -35,4 +35,9 @@ func main() {
 		}
 		fmt.Println()
 	}
+
+	simple_string := "Hello World"
+	for i, r := range simple_string {
+		fmt.Println(i, string(r))
+	}
 }
